@@ -60,7 +60,7 @@ xkb_symbols "basic" {
     key <AC07>	{ [         j,          J, Escape ]	};
     key <AC08>	{ [         k,          K, parenleft ]	};
     key <AC09>	{ [         l,          L, parenright ]	};
-    key <AC10>	{ [ semicolon,  semicolon, BackSpace]  };
+    key <AC10>	{ [ semicolon,  dead_diaeresis, BackSpace]  };
     key <AC11>	{ [     colon,      colon, asciicircum]  };
 
     //key <BKSL>	{ [ backslash,        bar, 	NoSymbol, paragraph ] };
@@ -79,4 +79,3 @@ xkb_symbols "basic" {
 
     include "level3(lalt_switch)"
 };
-
