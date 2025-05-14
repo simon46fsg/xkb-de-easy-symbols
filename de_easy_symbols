@@ -34,6 +34,7 @@ xkb_symbols "basic" {
     //caps becomes the new super key for easy acces in tiling WMs
     key <CAPS>  {[    Super_L,    Super_L,          Super_L,        Super_L ]};
     //the windows key becomes an alt key
+    //not sure if LWIN requires pc104 as keycodes
     key <LWIN>  {[      Alt_R,      Alt_R,            Alt_R,          Alt_R ]};
     
     //the third layer is accessed by the left alt key (it is no longer a real alt key)
